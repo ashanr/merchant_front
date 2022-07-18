@@ -1,0 +1,55 @@
+// Here you can add other styles
+// .c-sidebar {
+//     color: #fff;
+//     background: #1B2164;
+// }
+.c-sidebar .c-sidebar-nav-link.c-active,
+.c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+    color: #fff;
+    background: #B5B382;
+}
+
+.label_font {
+    font-weight: bold;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #9bdaff13;
+}
+
+.download_btn {
+    background-color: #F07317;
+    color: #ffffff;
+}
+
+// table
+.vuetable button.ui.button {
+    padding: 0.5em 0.5em;
+    font-weight: 400;
+}
+
+.vuetable button.ui.button i.icon {
+    margin-right: 0px !important;
+}
+
+.ui.grid.toolbar {
+    padding-bottom: 10px;
+}
+
+.font_warning {
+    color: rgb(218, 0, 0);
+}
+
+.vuetable {
+    display: block !important;
+    overflow-x: scroll !important;
+}
+
+// form validation marke adjustment
+html:not([dir="rtl"]) .form-control.is-valid {
+    background-position: right calc(0.375em + 1.1875rem) center;
+}
+
+html:not([dir="rtl"]) .form-control.is-invalid {
+    background-position: right calc(0.375em + 1.1875rem) center;
+}
